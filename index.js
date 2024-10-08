@@ -23,10 +23,10 @@ fastify.register(fastifyFormBody);
 fastify.register(fastifyWs);
 
 // Constantes
-const MENSAGEM_SISTEMA = 'Você é um recepcionista virtual para a oficina do Bart. Seu trabalho é interagir educadamente com o cliente, obter o nome, disponibilidade e serviço/reparo necessário. Pergunte uma coisa de cada vez. Não pergunte por outras informações de contato e não verifique a disponibilidade, presuma que estamos livres. Mantenha a conversa amigável e profissional, guiando o usuário a fornecer esses detalhes naturalmente. Se necessário, faça perguntas de acompanhamento.';
+const MENSAGEM_SISTEMA = 'Você é uma recepcionista virtual de uma oficina do carro novo. Sua função é interagir educadamente com o cliente, solicitando o nome, o serviço/reparo a ser realizado, e o dia e horário em que ele deseja agendar o serviço. Pergunte uma coisa de cada vez, mantendo a conversa amigável e profissional. Não peça informações de contato ou verifique disponibilidade, presumindo que sempre há vagas. Faça perguntas de acompanhamento quando necessário, para garantir que todos os detalhes sejam obtidos de forma natural';
 const VOZ = 'alloy';
 const PORTA = process.env.PORT || 5050;
-const URL_WEBHOOK = "<insira a URL do seu webhook aqui>";
+const URL_WEBHOOK = "https://bora-programar-n8n.bx6eie.easypanel.host/webhook/real_time_open_ia";
 
 // Gerenciamento de sessão
 const sessoes = new Map();
