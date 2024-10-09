@@ -1,55 +1,51 @@
 # Assistente de Voz com OpenAI Realtime API
 
-Este projeto implementa um agente de chamadas recebidas com IA para a Bart's Automotive, uma empresa automotiva fictÌcia. Utiliza a nova API em tempo real da OpenAI e integra-se com o Twilio para gerenciar chamadas telefÙnicas.
-
-## InstruÁıes em VÌdeo
-
-https://youtu.be/AZ0WziqO_QA?si=HORqrwjrbKnsuRZY
+Este projeto implementa um agente de chamadas recebidas com IA para a Bart's Automotive, uma empresa automotiva fict√≠cia. Utiliza a nova API em tempo real da OpenAI e integra-se com o Twilio para gerenciar chamadas telef√¥nicas.
 
 ## Funcionalidades
 
-- Gerencia chamadas recebidas usando os serviÁos de voz do Twilio
+- Gerencia chamadas recebidas usando os servi√ßos de voz do Twilio
 - Utiliza a API em tempo real da OpenAI para processamento de linguagem natural
-- Transcreve a fala do usu·rio e gera respostas de IA em tempo real
-- Extrai detalhes do cliente (nome, disponibilidade e observaÁıes) da conversa
-- Envia as informaÁıes extraÌdas para um webhook para processamento posterior
+- Transcreve a fala do usu√°rio e gera respostas de IA em tempo real
+- Extrai detalhes do cliente (nome, disponibilidade e observa√ß√µes) da conversa
+- Envia as informa√ß√µes extra√≠das para um webhook para processamento posterior
 
 ## Tecnologias Utilizadas
 
 - Node.js
 - Fastify (framework web)
-- WebSocket (para comunicaÁ„o em tempo real)
+- WebSocket (para comunica√ß√£o em tempo real)
 - OpenAI GPT-4 Realtime API
-- Twilio (para serviÁos de telefonia)
-- dotenv (para gerenciamento de vari·veis de ambiente)
+- Twilio (para servi√ßos de telefonia)
+- dotenv (para gerenciamento de vari√°veis de ambiente)
 
-## ConfiguraÁ„o
+## Configura√ß√£o
 
-1. Clone o repositÛrio:
+1. Clone o reposit√≥rio:
    ```bash
-   git clone https://github.com/Barty-Bart/openai-realtime-api-voice-assistant.git
-   cd openai-realtime-api-voice-assistant
+   git clone [https://github.com/Barty-Bart/openai-realtime-api-voice-assistant.git](https://github.com/hallancma/Real_Time_IA)
+   cd Real_Time_IA
 
-2. Clone o repositÛrio:
+2. Clone o reposit√≥rio:
 npm install
 
 
-3. Configure as vari·veis de ambiente: Crie um arquivo .env no diretÛrio raiz e adicione o seguinte:
+3. Configure as vari√°veis de ambiente: Crie um arquivo .env no diret√≥rio raiz e adicione o seguinte:
 OPENAI_API_KEY=sua_chave_api_openai
 
 4. Substitua sua_chave_api_openai pela sua chave real da OpenAI.
 
-Atualize a URL do webhook: Abra o arquivo index.js e localize a constante WEBHOOK_URL. Substitua a URL existente pela sua prÛpria URL de webhook:
+Atualize a URL do webhook: Abra o arquivo index.js e localize a constante WEBHOOK_URL. Substitua a URL existente pela sua pr√≥pria URL de webhook:
 
 const WEBHOOK_URL = "https://sua-url-webhook.com";
 
 5. Inicie o servidor:
 
 Uso
-Com o servidor em execuÁ„o, ele gerenciar· chamadas recebidas do Twilio. O agente de IA interagir· com os chamadores, transcrever· suas falas, gerar· respostas apropriadas e extrair· informaÁıes relevantes da conversa.
+Com o servidor em execu√ß√£o, ele gerenciar√° chamadas recebidas do Twilio. O agente de IA interagir√° com os chamadores, transcrever√° suas falas, gerar√° respostas apropriadas e extrair√° informa√ß√µes relevantes da conversa.
 
 Nota
-Este projeto È uma demonstraÁ„o e deve ser adaptado para uso em produÁ„o, incluindo tratamento adequado de erros, medidas de seguranÁa e conformidade com as regulamentaÁıes aplic·veis.
+Este projeto √© uma demonstra√ß√£o e deve ser adaptado para uso em produ√ß√£o, incluindo tratamento adequado de erros, medidas de seguran√ßa e conformidade com as regulamenta√ß√µes aplic√°veis.
 
-ContribuiÁ„o
-ContribuiÁıes s„o bem-vindas! Sinta-se ‡ vontade para enviar um Pull Request.
+Contribui√ß√£o
+Contribui√ß√µes s√£o bem-vindas! Sinta-se √† vontade para enviar um Pull Request.
