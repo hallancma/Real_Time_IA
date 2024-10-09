@@ -1,6 +1,6 @@
 # Assistente de Voz com OpenAI Realtime API
 
-Este projeto implementa um agente de chamadas recebidas com IA para a Bart's Automotive, uma empresa automotiva fictícia. Utiliza a nova API em tempo real da OpenAI e integra-se com o Twilio para gerenciar chamadas telefônicas.
+Este projeto implementa um agente de chamadas recebidas com IA para a uma oficina de exemplo chamada carro novo, uma empresa automotiva fictícia. Utiliza a nova API em tempo real da OpenAI e integra-se com o Twilio para gerenciar chamadas telefônicas.
 
 ## Funcionalidades
 
