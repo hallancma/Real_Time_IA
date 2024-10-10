@@ -23,7 +23,7 @@ Este projeto implementa um agente de chamadas recebidas com IA para a uma oficin
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/hallancma/Real_Time_IA](https://github.com/hallancma/Real_Time_IA)
+   git clone https://github.com/hallancma/Real_Time_IA
    cd Real_Time_IA
 
 2. Clone o repositório:
